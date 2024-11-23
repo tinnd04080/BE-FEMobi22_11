@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CarBookingApp",
+    "slug": "CarBookingApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.thanhtran.samle.carbooking",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fc807c23-7d07-44a8-a90c-e51d8da9467c"
+      }
+    },
+    "plugins": [
+      "expo-localization"
+    ]
+  }
+}
